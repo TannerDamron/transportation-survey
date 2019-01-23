@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="survey">
+        <h2>What mode of transportation do you use to get to work?</h2>
+        <input type="checkbox" name="toWork" value="train">Train<br>
+        <input type="checkbox" name="toWork" value="walk">Walk<br>
+        <input type="checkbox" name="toWork" value="bus">Bus<br>
+        <input type="checkbox" name="toWork" value="plane">Plane<br>
+        <input type="checkbox" name="toWork" value="ferry">Ferry<br>
+        <input type="checkbox" name="toWork" value="other">Other<br>
+        <h2>What mode of transportation do you use to get to places to have fun?</h2>
+        <input type="checkbox" name="toFun" value="train">Train<br>
+        <input type="checkbox" name="toFun" value="walk">Walk<br>
+        <input type="checkbox" name="toFun" value="bus">Bus<br>
+        <input type="checkbox" name="toFun" value="plane">Plane<br>
+        <input type="checkbox" name="toFun" value="ferry">Ferry<br>
+        <input type="checkbox" name="toFun" value="other">Other<br>
+        <button class="btn btn-info btn-md" type="submit" name="button">Submit!</button>
+      </form>
+      <div class="resultWork">
+        <h2>You use these modes to transport to work</h2>
+      </div>
+      <div class="resultFun">
+        <h2>You use these modes to transport to fun</h2>
+      </div>
+    </div>
+  </body>
+</html>
